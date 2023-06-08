@@ -27,7 +27,7 @@ function Main() {
     <main>
       <Hero />
       {/* Mengirim props: state movies */}
-      <Movies movies={movies} setMovies={setMovies} />
+      <Movies title="Latest Movie" movies={movies} setMovies={setMovies} />
       <AddMovieForm movies={movies} setMovies={setMovies} />
     </main>
   );
