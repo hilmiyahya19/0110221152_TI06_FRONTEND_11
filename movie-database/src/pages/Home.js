@@ -6,21 +6,10 @@ import { useState } from "react";
 import data from "../utils/constants/data";
 //import Counter from "../components/Counter";
 
-/**
- * Membuat Component Main.
- * Menampung Hero dan Movies
- */
-function Main() {
-  /**
-   * Ini hanya snippet(potongan) code.
-   * Kode yang lainnya tetap sama.
-   */
 
-  /**
-   * Mengangkat stave movies: lifting state.
-   * Dari Component Movies ke Component Home.
-   * Agar bisa digunakan oleh Component yang lain.
-   */
+function Main() {
+ 
+ 
   const [movies, setMovies] = useState(data);
   
   return (
@@ -35,11 +24,7 @@ function Main() {
   //return <Counter />;
 }
 
-/**
- * Membuat Component Home.
- * Menampilkan Halaman Home.
- * Menampung Navbar, Main, dan Footer Component
- */
+
 function Home() {
   return (
     <>
